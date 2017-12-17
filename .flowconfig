@@ -1,0 +1,18 @@
+[include]
+
+[libs]
+flow-typed
+
+[options]
+module.name_mapper='.*\.html$' -> 'empty/object'
+module.name_mapper='.*\.styl$' -> 'empty/object'
+module.name_mapper='.*\.css$' -> 'empty/object'
+
+suppress_comment= \\(.\\|\n\\)*\\$FlowFixMe
+
+[ignore]
+.*/build/.*
+# .*\.html
+
+# This package can give you a lot of flow errors, better ignore it
+# .*/node_modules/fbjs/.*
