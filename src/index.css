@@ -1,5 +1,17 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Source Sans Pro';
+}
+
+code {
+  font-family: 'Source Code Pro';
+}
+
+h1 {
+  font-weight: normal;
+}
+
+a {
+  color: #eee;
 }
